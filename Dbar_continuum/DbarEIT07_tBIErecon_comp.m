@@ -23,7 +23,7 @@ scatBIE(abs(K1+1i*K2)<tMAX) = tBIE;
 % point or inside a region of interest. Below, if you take Mx=5, you get
 % the reconstruction on a 32x32 grid; if you prefer a finer picture, you
 % can take Mx=7 to get the reconstruction on a 128x128 grid.
-Mx = 7;
+Mx = 6;
 [x1,x2,hx,tmpxa,tmpxb,tmpxc] = GV_grids(Mx, Mx+1, 1);
 xvec = x1(:) + 1i*x2(:);
 Nx   = length(xvec);

@@ -1,6 +1,6 @@
 % Plot the conductivity 
 %
-% Samuli Siltanen May 2012
+% Samuli Siltanen October 2024
 
 % Set font size
 fsize = 14;
@@ -8,7 +8,7 @@ fsize = 14;
 % Create evaluation points
 t       = linspace(-1,1,256);
 [x1,x2] = meshgrid(t);
-z       = x1 + i*x2;
+z       = x1 + 1i*x2;
 
 % Evaluate potential
 c = heartNlungs(z);
